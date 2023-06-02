@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="100dp">
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/editTextLastName"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginVertical="40dp"
+            android:background="@null"
+            android:hint="Last Name" />
+
+        <EditText
+            android:id="@+id/editTextAge"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:hint="Age"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:text="NEXT" />
+    </LinearLayout>
+
+</FrameLayout>

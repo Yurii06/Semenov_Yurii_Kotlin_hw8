@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Назовите с какого возаста
+             человек имеет право покупать сигареты?"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextGPA"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@null"
+            android:hint="Ответ" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="30dp"
+            android:text="Назовите с какого возаста
+             человек имеет право покупать алкоголь?"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextSchool"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginVertical="30dp"
+            android:background="@null"
+            android:hint="Ответ" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Должны ли продавцы спрашивать
+            паспорт у покупателей?"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextMarriage"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginVertical="20dp"
+            android:background="@null"
+            android:hint="Ответ" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="войти" />
+    </LinearLayout>
+
+</FrameLayout>
